@@ -1,0 +1,112 @@
+.Latte{
+    background-color: #1E3932;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Favs_temporada{
+    background-color: #0044b4;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Cafe_temporada{
+    background-color: #d50032;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Rewards{
+    background-color: #1E3932;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Por_el_planeta{
+    background-color: #d50032;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+
+    button {
+        background-color: #d50032;
+        color: white;
+        padding: 10px 20px;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+      
+    button:hover {
+        background-color: #ff7c9b;
+    }
+}
+
+.Noticias{
+    background-color: #fed3ff;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+
+    button {
+        background-color: #fed3ff;
+        color: #460047;
+        padding: 10px 20px;
+        border: 1px solid #460047;
+        cursor: pointer;
+      }
+      
+    button:hover {
+        background-color: #fde2fd;
+    }
+}
+
+.Términos_y_condiciones{
+    background-color: #88c9ff;
+    padding: 4%;
+    margin-top: 30px;
+    border-radius: 12px solid #d50032;
+    box-shadow: 5px 1px 15px black;
+
+    display: flex;
+    flex-direction: row;
+
+    button {
+        background-color: #88c9ff;
+        color: #002a4d;
+        padding: 10px 20px;
+        border: 1px solid #002a4d;
+        cursor: pointer;
+      }
+      
+    button:hover {
+        background-color: #b6dcfc;
+    }
+}
