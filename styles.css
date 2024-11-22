@@ -1,112 +1,108 @@
-.Latte{
-    background-color: #1E3932;
-    padding: 4%;
-    margin-top: 30px;
-    border-radius: 15px;
-    box-shadow: 5px 1px 15px black;
-
+.navbar{
     display: flex;
     flex-direction: row;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.Favs_temporada{
+#Logo-Starbucks img{
+    width: 30%;
+}
+
+.Container-img{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 4%;
+    margin-top: 30px;    
+}
+
+.Container-text{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 4%;
+    margin-top: 30px;    
+}
+
+#verde{
+    background-color: #1E3932;
+}
+
+#azul{
     background-color: #0044b4;
-    padding: 4%;
-    margin-top: 30px;
-    border-radius: 15px;
-    box-shadow: 5px 1px 15px black;
-
-    display: flex;
-    flex-direction: row;
 }
 
-.Cafe_temporada{
+#rojo{
     background-color: #d50032;
-    padding: 4%;
-    margin-top: 30px;
-    border-radius: 15px;
-    box-shadow: 5px 1px 15px black;
-
-    display: flex;
-    flex-direction: row;
 }
 
-.Rewards{
+#verde{
     background-color: #1E3932;
-    padding: 4%;
-    margin-top: 30px;
-    border-radius: 15px;
-    box-shadow: 5px 1px 15px black;
-
-    display: flex;
-    flex-direction: row;
 }
 
-.Por_el_planeta{
+#verde{
+    background-color: #1E3932;
+}
+
+#button-rojo{
     background-color: #d50032;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+      
+#button-rojo:hover{
+    background-color: #ff7c9b;
+    
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
     padding: 4%;
     margin-top: 30px;
     border-radius: 15px;
-    box-shadow: 5px 1px 15px black;
-
-    display: flex;
-    flex-direction: row;
-
-    button {
-        background-color: #d50032;
-        color: white;
-        padding: 10px 20px;
-        border: 1px solid white;
-        cursor: pointer;
-      }
-      
-    button:hover {
-        background-color: #ff7c9b;
-    }
 }
 
-.Noticias{
-    background-color: #fed3ff;
-    padding: 4%;
-    margin-top: 30px;
-    border-radius: 15px;
-    box-shadow: 5px 1px 15px black;
-
-    display: flex;
-    flex-direction: row;
-
-    button {
-        background-color: #fed3ff;
-        color: #460047;
-        padding: 10px 20px;
-        border: 1px solid #460047;
-        cursor: pointer;
-      }
-      
-    button:hover {
-        background-color: #fde2fd;
-    }
+#rosa-pastel{
+    background-color: #f6bfd9;
 }
 
-.Términos_y_condiciones{
-    background-color: #88c9ff;
-    padding: 4%;
-    margin-top: 30px;
-    border-radius: 12px solid #d50032;
-    box-shadow: 5px 1px 15px black;
-
-    display: flex;
-    flex-direction: row;
-
-    button {
-        background-color: #88c9ff;
-        color: #002a4d;
-        padding: 10px 20px;
-        border: 1px solid #002a4d;
-        cursor: pointer;
-      }
+#button-rosapastel{
+    background-color: #f6bfd9;
+    color: #460047;
+    padding: 10px 20px;
+    border: 1px solid #460047;
+    border-radius: 20px;
+    cursor: pointer;
+}
       
-    button:hover {
-        background-color: #b6dcfc;
-    }
+#button-rosapastel:hover{
+    background-color: #fde2fd;
+}
+
+#azul-pastel{
+    background-color: #98cde4;
+}
+
+#button-azulpastel{
+    background-color: #98cde4;
+    color: #002a4d;
+    padding: 10px 20px;
+    border: 1px solid #002a4d;
+    border-radius: 20px;
+    cursor: pointer;
+}
+      
+#button-azulpastel:hover{
+    background-color: #b6dcfc;
 }
