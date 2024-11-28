@@ -16,6 +16,22 @@ body{
     align-items: center;
     padding: 40px;
     height: 2px;
+    width: 1260px;
+    background-color: white;
+}
+
+    /* 'Rewards' */
+#rewards{
+    position: fixed; /* Figar barra de navegación 'Rewards' */
+    top: 0;
+    height: 20px;
+    font-size: 13px;
+    box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.3);
+}
+
+    /* 'Rewards' */
+#ubi{
+    text-transform: uppercase;
 }
 
 .navbar a{
@@ -34,28 +50,38 @@ body{
     width: 50px;
 }
 
-.navbar-right {
+.navbar-right{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#ubi{
-    text-transform: capitalize;
+    /* 'Rewards' */
+#rewards .navbar-right{
+    gap: 7px;
 }
 
-.navbar-right a:first-child {
+.navbar-right a:first-child{
     margin-right: 35px;
 }
 
-a i {  /* Icono */
-    margin-right: 1px;
+    /* 'Rewards' */
+#rewards .navbar-right a:first-child{
+    margin-right: 24px;
+}
+
+a i{  /* Icono */
+    margin-right: 4px;
     font-size: 20px;
     color: black;
     vertical-align: bottom;
 }
 
-#button-blanco{
+#button-blanco, #button-negro{
+    text-transform: capitalize;  /* Primera letra mayúscula */
+}
+
+#button-blanco, #button-blanco--{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -66,6 +92,12 @@ a i {  /* Icono */
 }
 
 #button-blanco:hover{
+    color: #585858;
+    border: 1px solid #585858;
+}
+
+    /* 'Rewards' */
+#button-blanco--:hover{
     background-color: #e0e0e0;
 }
 
@@ -88,7 +120,7 @@ a i {  /* Icono */
     display: flex;
     flex-direction: row;
     height: 285px;
-    width: 1233px;
+    width: 1232px;
     justify-content: center;
     align-items: center;
     
@@ -151,8 +183,8 @@ img{
     background-color: #1E3932;
 }
 
-#button-rojo{
-    background-color: #d50032;
+#button-rojo, #transparent{ /* 'Rewards' */
+    background-color: transparent;
     color: white;
     padding: 10px 20px;
     border: 1px solid white;
@@ -162,6 +194,50 @@ img{
       
 #button-rojo:hover{
     background-color: #ff7c9b;
+}
+
+    /* 'Rewards' */
+#Gradiente{
+    position: fixed; /* Figar barra de navegación 'Rewards' */
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    width: 453px;
+    height: 432px;
+    font-size: 8px !important;
+    background: linear-gradient(to bottom, rgba(13, 104, 75, 1), rgba(54, 78, 66, 1));
+    box-shadow: 7px 0px 5px -5px rgba(0, 0, 0, 0.3);
+}
+
+#Starbucks_Rewards{ /* 'Rewards' */
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+#Gradiente p{ /* 'Rewards' */
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#transparent, #white { /* 'Rewards' */
+    font-weight: bold;
+}
+
+#transparent:hover{ /* 'Rewards' */
+    color: #06814b;
+    border: 1px solid #06814b;
+}
+
+#white{ /* 'Rewards' */
+    background-color: white;
+    color: #333333;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 52px;
 }
 
 /* Noticias | Términos y condiciones */
@@ -238,10 +314,10 @@ img{
     margin-top: 30px;
     box-shadow: 0px -6px 5px -5px rgba(0, 0, 0, 0.3);
     padding-left: 70px;
+}
 
-    h3{
-        font-weight: normal;
-    }
+h3{
+    font-weight: normal;
 }
 
 .Nosotros-lista li:first-child{
