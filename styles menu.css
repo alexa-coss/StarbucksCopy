@@ -1,0 +1,13 @@
+.navbar{
+    box-shadow: 0px 6px 5px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Letras */
+
+p{
+    font-size: 19px;
+}
+
+h2{
+    font-size: 50px;
+}
