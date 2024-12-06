@@ -550,7 +550,7 @@ footer{
     margin-top: 8.78vw; /* Altura del menú */
     margin-left: 41.16vw; /* Anchura de la barra lateral */
     overflow-y: auto; /* Habilita scroll vertical */
-    overflow-x: hidden; /* Dehabilita scroll orizontal */
+    overflow-x: hidden; /* Dehabilita scroll horizontal */
     padding: 0;
     background-color: white;
     font-size: 1.17vw;
@@ -823,3 +823,27 @@ strong{
 
 /* Diseño responsivo*/
 
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 1200px) {
+    body{
+        width: 100%;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .Content {
+        width: 57vw; /* Ajusta el ancho relativo */
+        margin: 8.78vw auto 0; /* Centra el contenedor con margen superior */
+        width: calc(100vw - 41.16vw);
+        margin-left: 41.16vw; /* Anchura de la barra lateral */
+        padding: 0;
+        background-color: white;
+        font-size: 1.17vw;
+        text-align: center;
+        overflow-y: auto; /* Habilita el scroll vertical */
+        overflow-x: hidden; /* Desactiva el scroll horizontal */
+    }    
+}
