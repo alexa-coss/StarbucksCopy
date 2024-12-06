@@ -6,12 +6,11 @@
 .Menu{
     display: flex;
     flex-direction: column;
-    margin: 38px auto 0;
+    margin: 2.8vw auto 0;
     max-width: 1200px;
     width: 100%;
     padding: 0;
     background-color: white;
-    font-size: 16px;
     text-align: left;
     align-items: flex-start;
     justify-content: center;
@@ -21,7 +20,7 @@
 /* Texto */
 
 #Disfruta{
-    font-size: 19px;
+    font-size: 1.4vw;
     padding: 0;
     margin: 0;
     text-align: left;
@@ -29,7 +28,7 @@
 }
 
 #Conoce{
-    font-size: 28px;
+    font-size: 2vw;
     max-width: 700px;
     text-transform: none;
     padding: 0;
@@ -42,17 +41,17 @@
 .parallel{
     display: flex;
     border-top: 1px solid #999999;
-    width: 1200px;
+    width: 88vw;
     padding: 0;
 }
 
 #arriba{
-    margin: 40px 0px 1px 0px;
+    margin: 3.6vw 0px 0px 0px;
 
 }
 
 #abajo{
-    margin: 20px 0px 12px 0px;
+    margin: 1.5vw 0px 1.2vw 0px;
 
 }
 
@@ -63,13 +62,14 @@
     padding: 0;
     margin: 0;
     width: 100%;
+    justify-content: center;
 }
 
 /* Círculo */
 .producto{
     display: flex;   /* Permite que el span se comporte como bloque */
-    width: 170px;
-    height: 170px;
+    width: 12.5vw;
+    height: 12.5vw;
     background-color: #1e3932;
     border-radius: 50%;
     justify-content: center;
@@ -89,7 +89,7 @@
 .Menu a {
     display: flex;
     flex-direction: column;
-    font-size: 19px;
+    font-size: 1.4vw;
     color: #272727;
     text-decoration: none;
     align-items: center;
@@ -98,8 +98,11 @@
 .Tipo{
     display: grid; /* Activa grid layout */
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 1.8vw;
     justify-items: center;
     text-align: center;
     justify-content: center;
 }
+
+/* Diseño responsivo*/
+

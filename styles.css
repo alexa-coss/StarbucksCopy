@@ -10,23 +10,25 @@ body{
 .navbar{
     display: flex;
     flex-direction: row;
-    font-size: 16px;
+    font-size: 96%;
     font-weight: 700;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    height: 2px;
-    width: 1260px;
+    padding: 0 5vw;
+    height: 6vw;
     background-color: white;
 }
 
     /* 'Rewards' */
 #rewards{
+    display: flex;
     position: fixed; /* Figar barra de navegación 'Rewards' */
     top: 0;
-    height: 20px;
-    font-size: 13px;
+    padding: 0 5vw;
+    height: 7.3vw;
+    font-size: 84%;
     box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.3);
+    gap: 38vw;
 }
 
     /* 'Rewards' */
@@ -42,37 +44,37 @@ body{
 .navbar-left{
     display: flex;
     align-items: center;
-    gap: 43px;
+    gap: 3.1vw;
     text-transform: uppercase;
 }
 
 #Logo-Starbucks img{
-    width: 50px;
+    width: 3.6vw;
 }
 
 .navbar-right{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1.4vw;
 }
 
     /* 'Rewards' */
 #rewards .navbar-right{
-    gap: 7px;
+    gap: 0.5vw;
 }
 
 .navbar-right a:first-child{
-    margin-right: 35px;
+    margin-right: 1.2vw;
 }
 
     /* 'Rewards' */
 #rewards .navbar-right a:first-child{
-    margin-right: 24px;
+    margin-right: 2vw;
 }
 
 a i{  /* Icono */
-    margin-right: 4px;
-    font-size: 20px;
+    margin-right: 0.4vw;
+    font-size: 1.5vw;
     color: black;
     vertical-align: bottom;
 }
@@ -84,9 +86,11 @@ a i{  /* Icono */
 #button-blanco, #button-blanco--{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
+    height: 2.4vw;
+    width: 7.2vw;
+    line-height: normal;
     border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 1.5vw;
     cursor: pointer;
     font-weight: bold;
 }
@@ -104,9 +108,10 @@ a i{  /* Icono */
 #button-negro{
     background-color: #000000;
     color: white;
-    padding: 10px 20px;
+    height: 2.4vw;
+    width: 8vw;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     cursor: pointer;
     font-weight: bold;
 }
@@ -119,12 +124,12 @@ a i{  /* Icono */
 .Container-latte{
     display: flex;
     flex-direction: row;
-    height: 285px;
-    width: 1232px;
+    height: 28.8vw;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     
-    padding: 4%;
+    padding: 0;
     margin-top: 30px;
     margin: 0;
     color: white;
@@ -136,31 +141,37 @@ h2{
 
 .Latte--text, .text{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.32vw;
+    flex-grow: 1;
 }
 
-#latte img{
-    width: 680px;
-    height: auto;
+#latte{
+    display: flex;
+    height: 28.8vw;
+    width: auto;
+    max-height: 100%;
+    margin-left: 0;
 }
 
 .Container{
     display: flex;
     flex-direction: row;
-    height: 340px;
-    width: 1232px;
+    height: 32.9vw;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     
-    padding: 4%;
+    padding: 0;
     margin-top: 30px;
     color: white;
     text-align: center;
 }
 
-img{
-    width: 660px;
-    height: auto;
+.Container img{
+    display: flex;
+    height: 32.9vw;
+    width: auto;
+    max-height: 100%;
 }
 
 #verde{
@@ -175,20 +186,13 @@ img{
     background-color: #d50032;
 }
 
-#verde{
-    background-color: #1E3932;
-}
-
-#verde{
-    background-color: #1E3932;
-}
-
 #button-rojo, #transparent{ /* 'Rewards' */
     background-color: transparent;
     color: white;
-    padding: 10px 20px;
+    height: 2.4vw;
+    width: 9.2vw;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     cursor: pointer;
 }
       
@@ -198,83 +202,109 @@ img{
 
     /* 'Rewards' */
 #Gradiente{
-    position: fixed; /* Fijar barra de navegación 'Rewards' */
+    position: fixed; /* Fijar barra izquierda 'Rewards' */
     display: flex;
-    top: 100px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 7.32vw;
     bottom: 0;
     left: 0;
-    width: 562px;
-    height: calc(100vh - 70px);
-    font-size: 8px !important;
+    width: 41.14vw;
+    height: calc(100vh - 5.12vw);
+    font-size: 0.59vw !important;
     background: linear-gradient(to bottom, rgba(13, 104, 75, 1), rgba(54, 78, 66, 1));
-    box-shadow: 7px 0px 5px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0.51vw 0px 0.37vw -0.37vw rgba(0, 0, 0, 0.3);
     padding: 0;
     margin: 0;
 
     overflow: hidden; /* Fijar contenido */
-    justify-content: center;
     align-items: center;
     color: white;
 }
 
+.Grad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #Starbucks_Rewards{ /* 'Rewards' */
     display: flex;
-    width: 300px;
+    width: 21.95vw;
     height: auto;
 }
 
 #Gradiente p{ /* 'Rewards' */
-    font-size: 35px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    font-size: 2.56vw;
+    margin-top: 0.73vw;
+    margin-bottom: 2.19vw;
 }
 
 #transparent, #white { /* 'Rewards' */
     font-weight: bold;
+    height: 2.4vw;
+    cursor: pointer;
+    border-radius: 1.46vw;
+}
+
+#transparent{ /* 'Rewards' */
+    background-color: transparent;
+    color: white;
+    width: 8vw;
+    border: 0.07vw solid white;
 }
 
 #transparent:hover{ /* 'Rewards' */
     color: #06814b;
-    border: 1px solid #06814b;
+    border: 0.07vw solid #06814b;
 }
 
 #white{ /* 'Rewards' */
     background-color: white;
     color: #333333;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-left: 52px;
+    width: 8.1vw;
+    border: 0.07vw solid white;
+    margin-left: 3.8vw;
 }
 
 /* Noticias | Términos y condiciones */
-.Container-file{
+.Container-file {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    height: 810px;
-    gap: 20px;
-    font-size: 18px;
-}
-
-.Container-file img{
-    display: flex;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
+    gap: 2.2vw;
+    width: 100%;  /* Asegura que el contenedor ocupe todo el ancho disponible */
+    margin-top: 2.2vw;
 }
 
 .Container-pastel{
-    width: 616px;
-    padding: 4%;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vw;
+    
+    padding: 0 !important;
+    margin: 0;
+    color: white;
     text-align: center;
+    overflow: hidden;
+    font-size: 1.3vw;
+}
+
+.Container-pastel img{
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    padding: 0;
+    margin-top: -6.4vw;
 }
 
 #rosa-pastel, #azul-pastel {
-    padding: 20px;
+    padding: 1.6vw;
 }
 
 #rosa-pastel{
@@ -285,9 +315,10 @@ img{
 #button-rosapastel{
     background-color: #f6bfd9;
     color: #d50032;
-    padding: 10px 20px;
     border: 1px solid #d50032;
-    border-radius: 20px;
+    height: 2.4vw;
+    width: 5vw;
+    border-radius: 1.5vw;
     cursor: pointer;
     font-weight: bold;
 }
@@ -304,9 +335,10 @@ img{
 #button-azulpastel{
     background-color: #98cde4;
     color: #003b49;
-    padding: 10px 20px;
     border: 1px solid #003b49;
-    border-radius: 20px;
+    height: 2.4vw;
+    width: 7vw;
+    border-radius: 1.5vw;
     cursor: pointer;
     font-weight: bold;
 }
@@ -318,19 +350,21 @@ img{
 /* Nosotros | Cliente */
 .Container-nosotros-cliente{
     display: flex;
-    height: 200px;
-    gap: 40px;
-    margin-top: 30px;
-    box-shadow: 0px -6px 5px -5px rgba(0, 0, 0, 0.3);
-    padding-left: 70px;
+    height: 14.5vw;
+    gap: 2.9vw;
+    margin-top: 2.2vw;
+    box-shadow: 0px -0.44vw 0.37vw -0.37vw rgba(0, 0, 0, 0.3);
+    padding-top: 1.4vw;
+    padding-left: 5.08vw;
+    max-width: 1200px;
 }
 
     /* Rewards */
 #nosotros-rewards{
     border: none;
     box-shadow: none; /* Elimina el sombreado */
-    margin-top: 0px;
-    margin-bottom: 102px;
+    margin-top: 0;
+    margin-bottom: 7.46vw;
     padding: 0;
 }
 
@@ -339,7 +373,7 @@ h3{
 }
 
 .Nosotros-lista li:first-child{
-    margin-top: 25px;
+    margin-top: 1.8vw;
 }
 
 .Nosotros-lista{
@@ -348,19 +382,19 @@ h3{
 }
 
 .Nosotros-lista li{
-    margin-bottom: 25px;
+    margin-bottom: 1.8vw;
 }
 
     /* Rewards */
 #nosotros-rewards li{
-    margin-bottom: 15px;
+    margin-bottom: 1.1vw;
 
 }
 
 .Nosotros-lista a{
     text-decoration: none;
     color: #777777;
-    margin-bottom: 10px;
+    margin-bottom: 20.73vw;
 }
 
 #lista a:hover{
@@ -371,15 +405,15 @@ h3{
 .linea-horizontal{
     display: flex;
     border-top: 1px solid #e8eaee;
-    width: 1200px;
-    margin-top: 55px;
-    margin-bottom: 13px;
+    width: 88vw;
+    margin-top: 4.03vw;
+    margin-bottom: 0.9vw;
 }
 
     /* Rewards */
 #line-rewards{
     width: 100vw !important;
-    margin-bottom: 2px;
+    margin-bottom: 0.15vw;
     padding: 0;
 }
 
@@ -394,20 +428,20 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 2.34vw;
 }
 
     /* Rewards */
 #redes-rewards a{
-    margin-bottom: 3px;
+    margin-bottom: 0.22vw;
 }
 
 .social-icon{
     display: inline-block;
-    margin-right: 30px; /* Espacio entre íconos */
-    font-size: 20px; /* Tamaño ícono */
-    width: 34px; /* Ancho círculo */
-    height: 34px; /* Alto círculo */
+    margin-right: 2.19vw; /* Espacio entre íconos */
+    font-size: 1.3vw; /* Tamaño ícono */
+    width: 2.49vw; /* Ancho círculo */
+    height: 2.49vw; /* Alto círculo */
     border-radius: 50%; /* Hace el ícono circular */
     background-color: #000; /* Color círculo */
     color: #fff; /* Color ícono */
@@ -427,7 +461,7 @@ h3{
     justify-content: center;
     list-style: none;
     align-items: center;
-    gap: 10px;
+    gap: 0.9vw;
     padding: 0;
     flex-wrap: wrap;
 }
@@ -435,7 +469,7 @@ h3{
     /* Rewards */
 #avisos-rewards{
     margin-top: 3px;
-    padding: 0 20px;
+    padding: 0 1.46vw;
 }
 
 .avisos a{
@@ -453,7 +487,7 @@ h3{
     */
 .avisos li:not(:last-child)::after {
     content: "|";  /* Añade | después de cada li */
-    margin-left: 10px;  /* Espacio entre barra y texto */
+    margin-left: 0.9vw;  /* Espacio entre barra y texto */
     color: #a0a6ac;
 }
 
@@ -472,8 +506,13 @@ footer{
 
 /* Derechos */
 #derechos{
-    font-size: 12px;
-    margin-bottom: 8px;
+    font-size: 1vw;
+    margin-bottom: 0.59vw;
+}
+
+    /* Rewards */
+#derechos{
+    font-size: 0.73vw;
 }
 
 .derechos{
@@ -482,7 +521,7 @@ footer{
     justify-content: center;
     list-style: none;
     align-items: center;
-    gap: 2px;
+    gap: 0.1vw;
     padding: 0;
     margin-top: 0;
 }
@@ -490,7 +529,7 @@ footer{
 .derechos li{
     text-decoration: none;
     color: #a0a6ac;
-    font-size: 10px;
+    font-size: 0.73vw;
     font-weight: normal;
     padding: 0;
     margin: 0;
@@ -498,7 +537,7 @@ footer{
 
 .derechos li:not(:last-child)::after {
     content: "|";  /* Añade | después de cada li */
-    margin-left: 2px;  /* Espacio entre barra y texto */
+    margin-left: 0.1vw;  /* Espacio entre barra y texto */
     color: #a0a6ac;
 }
 
@@ -508,13 +547,13 @@ footer{
 
 .Content {
     width: 57vw;
-    margin-top: 120px; /* Altura del menú */
-    margin-left: 562px; /* Anchura de la barra lateral */
+    margin-top: 8.78vw; /* Altura del menú */
+    margin-left: 41.16vw; /* Anchura de la barra lateral */
     overflow-y: auto; /* Habilita scroll vertical */
     overflow-x: hidden; /* Dehabilita scroll orizontal */
     padding: 0;
     background-color: white;
-    font-size: 16px;
+    font-size: 1.17vw;
     text-align: center;
 }
 
@@ -525,11 +564,11 @@ footer{
     /* Letras */
 
 #letra{
-    font-size: 19px;
+    font-size: 1.39vw;
 }
 
 .Content h2{
-    font-size: 22px;
+    font-size: 1.61vw;
     text-transform: none;
 }
 
@@ -540,70 +579,70 @@ strong{
     /* Imágenes */
 
 .Unete img, .Gold img{
-    height: 80px;
+    height: 5.87vw;
     width: auto;
     margin: 0 auto;
 }
 
 .Estrellas img{
-    height: 48px;
+    height: 3.51vw;
     width: auto;
     padding: 0;
     margin: 0;
 }
 
 #tres- img{
-    height: 118px;
+    height: 8.64vw;
     width: auto;
 }
 
 #tres- img:nth-of-type(2){
-    height: 195px;
+    height: 13.85vw;
     width: auto;
 }
 
 #chica{
-    height: 186px;
+    height: 13.61vw;
     width: auto;
 }
 
 .Ordena img{
-    height: 131px;
+    height: 9.58vw;
     width: auto;
 }
 
 #star{
-    height: 40px;
+    height: 2.92vw;
     width: auto;
 }
 
 .Personaliza img{
-    height: 166px;
+    height: 11.79vw;
     width: auto;
 }
 
 #app{
-    height: 210px;
+    height: 15.35vw;
     width: auto;
 }
 
 .Obten-estrellas img{
-    height: 48px;
+    height: 3.51vw;
     width: auto;
 }
 
 #puntos{
-    height: 250px;
+    height: 18.3vw;
     width: auto;
 }
 
 .Mas img{
-    height: 182px;
+    height: 13.33vw;
     width: auto;
 }
 
 .Starbucks_Rewards img{
-    height: 150px;
+    height: 10.97vw;
     width: auto;
 }
 
@@ -611,38 +650,38 @@ strong{
     /* Imagen y letra abajo */
 #cuatro{
     display: grid;
-    grid-template-columns: repeat(4, 130px); /* Crea una cuadrícula flexible */
-    gap: 20px; /* Espacio entre cada imagen y texto */
+    grid-template-columns: repeat(4, 9.51vw); /* Crea una cuadrícula flexible */
+    gap: 1.47vw; /* Espacio entre cada imagen y texto */
     justify-content: center;
     text-align: center;
 }
 
 #cuatro p {
-    margin: 0px;
+    margin: 0;
 }
 
     /* Espacio vertical */
 .Gold{
-    margin-top: 75px;
-    margin-bottom: 40px;
+    margin-top: 5.49vw;
+    margin-bottom: 2.93vw;
 }
 
     /* Bloque 2 y más */
     /* Espacio vertical */
 #Gris, #blanco{
-    padding: 20px 0; /* Espacio arriba y abajo */
-    margin: 20px 0; /* Espacio arriba y abajo */
+    padding: 1.47vw 0;
+    margin: 1.47vw 0;
 }
 
     /* Bloque 2 */
 .Estrellas p{
-    max-width: 320px; /* Limita ancho del texto */
-    margin: 7px auto 22px auto; /* Para centrar texto en un contenedor con ancho específico */
+    max-width: 23.42vw;
+    margin: 0.51vw auto 1.61vw auto;
 }
 
 .Estrellas h2{
-    max-width: 320px; /* Limita ancho del texto */
-    margin: 7px auto 20px auto; /* Para centrar texto en un contenedor con ancho específico */
+    max-width: 23.42vw;
+    margin: 0.51vw auto 1.47vw auto;
 }
 
     /* Bloque 3 */
@@ -652,56 +691,56 @@ strong{
 }
 
 .Obten-estrellas #letra{
-    margin-top: 3px;
-    margin-bottom: 50px;
+    margin-top: 0.22vw;
+    margin-bottom: 3.68vw;
     padding: 0;
 }
 
 .paso{
-    display: inline-block;   /* Permite que el span se comporte como bloque */
-    width: 36px;
-    height: 36px;
+    display: inline-block;
+    width: 2.63vw;
+    height: 2.63vw;
     background-color: #2c523c;
     color: white;
     border-radius: 50%;
-    text-align: center;      /* Centra horizontalmente */
-    line-height: 36px;       /* Centra verticalmente */
-    font-size: 16px;
+    text-align: center;
+    line-height: 2.63vw;
+    font-size: 1.17vw;
 }
 
 #tres-{
     display: grid;
-    grid-template-columns: 20px 100px 210px;
-    grid-template-rows: 147px 147px;
-    gap: 20px; /* Espacio entre cada imagen y texto */
+    grid-template-columns: 1.47vw 7.32vw 15.37vw;
+    grid-template-rows: 10.74vw 10.74vw;
+    gap: 1.47vw;
     justify-content: center;
     text-align: start;
 }
 
 #dos, #apps, #ult{
     display: grid;
-    grid-template-columns: repeat(2, 300px); /* Crea una cuadrícula flexible */
-    gap: 20px; /* Espacio entre cada imagen y texto */
+    grid-template-columns: repeat(2, 21.96vw);
+    gap: 1.47vw;
     justify-content: center;
     align-items: center;
 }
 
     /* Bloque vídeo */
 .video{
-    width: 794px;
-    height: 596px;
+    width: 58.13vw;
+    height: 43.6vw;
 }
 
     /* Bloque 4 */
 .Ordena h2{
-    max-width: 320px; /* Limita ancho del texto */
-    margin: 7px auto 40px auto; /* Para centrar texto en un contenedor con ancho específico */
+    max-width: 23.42vw;
+    margin: 0.51vw auto 2.19vw auto;
 }
 
 .dos-{
     display: grid;
-    grid-template-columns: 80px 120px;
-    gap: 10px;
+    grid-template-columns: 5.86vw 8.77vw;
+    gap: 0.73vw;
     justify-items: center;
     text-align: left;
     align-items: center;
@@ -716,9 +755,9 @@ strong{
 }
 
 .tres{
-    display: grid; /* Activa grid layout */
-    grid-template-columns: 188px 192px 192px;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 13.76vw 14.05vw 14.05vw;
+    gap: 1.47vw;
     justify-items: center;
     text-align: center;
     justify-content: center;
@@ -730,8 +769,8 @@ strong{
 
 .card{
     display: grid;
-    grid-template-columns: 160px 200px;
-    gap: 20px;
+    grid-template-columns: 11.71vw 14.64vw;
+    gap: 1.47vw;
     justify-content: center;
     justify-items: start;
     align-items: center;
@@ -746,31 +785,31 @@ strong{
 .Obten-estrellas{
     display: grid;
     place-items: center; /* Centra vertical y horizontal */
-    gap: 20px; /* Espacio entre los elementos */
+    gap: 1.47vw; /* Espacio entre los elementos */
 }
 
 .Obten-estrellas h2, .Obten-estrellas p{
     margin: 0;
-    max-width: 498px;
+    max-width: 36.37vw;
 }
 
 .Obten-estrellas h2{
-    margin-bottom: 3px;
+    margin-bottom: 0.22vw;
 }
 
 .Obten-estrellas p{
-    margin-bottom: 22px;
+    margin-bottom: 1.61vw;
 }
 
 #cafe{
     font-weight: bold;
-    max-width: 600px;
+    max-width: 43.88vw;
 }
 
     /* Bloque 6 */
 #ult-{
     margin: 0;
-    max-width: 160px;
+    max-width: 11.71vw;
     text-align: left;
 }
 
@@ -781,3 +820,6 @@ strong{
 #aqui:hover{
     text-decoration: none;
 }
+
+/* Diseño responsivo*/
+
