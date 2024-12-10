@@ -107,47 +107,63 @@
 /* Diseño responsivo*/
 
 @media (max-width: 600px) {
-    /* Hacer la sección de productos en dos columnas */
+    /* Barra de navegación */
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 20vw;
+        padding: 0;
+        margin: 0 0 2vw 0;
+    }
+    
+    /* Dos columnas */
     .Tipo {
-        display: grid; /* Usar grid para las columnas */
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
-        gap: 1.8vw; /* Espacio entre las columnas */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.8vw;
         justify-items: center;
         text-align: center;
         justify-content: center;
     }
 
-    /* Asegúrate de que las imágenes dentro de los círculos se ajusten correctamente */
     .Menu img {
-        width: 100%;  /* Ajusta las imágenes al tamaño del círculo */
+        width: 100%;
         height: auto;
-        object-fit: cover;  /* No se distorsionan */
+        object-fit: cover;
     }
 
-    /* Ajustar el tamaño del texto en los enlaces */
-    .Menu a {
-        font-size: 4vw;  /* Tamaño de fuente más grande para pantallas pequeñas */
-    }
-
-    /* Ajustar la barra de menú para que ocupe todo el ancho */
     .Menu {
         width: 100%;
         padding: 0;
         margin: 0 auto;
     }
 
-    /* Los encabezados y párrafos se ajustan */
-    #Disfruta, #Conoce {
-        font-size: 4vw;  /* Tamaño de fuente más grande en pantallas pequeñas */
+    .parallel {
+        max-width: 100%;
     }
 
-    .parallel {
-        width: 100%;  /* Asegura que las líneas ocupen todo el ancho */
+    /* Texto */
+
+    #Disfruta, .Menu a{
+        font-size: 2.8vw;
+    }
+    
+    #Conoce{
+        font-size: 4vw;
+    }
+
+    /* Círculo */
+    .producto{
+    display: flex;
+    width: 30vw;
+    height: 30vw;
     }
 }
 
-
 @media (min-width: 1200px) {
+    /* max-width de 1200px, sin importar el tamaño de pantalla */
     body{
         width: 100%;
         width: 1200px;
