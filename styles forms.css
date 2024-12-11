@@ -1,0 +1,281 @@
+    /* Sesión */
+
+#Sesion{
+    margin-top: 7.4vw; /* Altura del menú */
+    margin-left: 41.16vw; /* Anchura de la barra lateral */
+    padding: 0;
+}
+
+#Form-inicia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 35.7vw;
+}
+
+label{
+    display: block;
+    align-self: flex-start;
+    margin-left: 16vw;
+    padding: 0;
+    font-size: 1.1vw;
+    color: #495057;
+}
+
+.required{
+    color: red;
+}
+
+input{
+    padding: 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d1d6db;
+    width: 25.8vw;
+
+    background-color: #f1f0eb;
+    color: #495057;
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+}
+
+input:focus{
+    border-bottom: 2px solid #00a862; /* Cambia borde */
+    outline: none; /* Eliminar borde de enfoque predeterminado */
+}
+
+#password:focus{
+    border-bottom: 1px solid #0072b4; /* Cambia borde */
+    outline: none; /* Eliminar borde de enfoque predeterminado */
+}
+
+/* Button */
+
+#Greens{
+    background-color: transparent;
+    display: block;
+    align-self: flex-start;
+    margin-left: 16vw;
+    padding: 0;
+    
+    color: #006341;
+    height: 2.4vw;
+    width: 13vw;
+    border: none;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+#Greens:hover{
+    background-color: #0681252a;
+    color: #068125;
+}
+
+#Green{
+    background-color: #00a862;
+    display: block;
+    align-self: flex-end;
+    margin-right: 16vw;
+    margin-top: 10vw;
+    padding: 0;
+    
+    color: #ffffff;
+    height: 4.1vw;
+    width: 13.8vw;
+    border: none;
+    border-radius: 2vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2vw;
+    line-height: 4.1vw;
+}
+
+#Green:hover{
+    background-color: #00a862c7;
+}
+
+#Invertido{
+    background-color: transparent;
+    display: block;
+    align-self:center;
+    padding: 0;
+    
+    color: #008248;
+    height: 3.7vw;
+    width: 13vw;
+    border: 0.07vw solid #008248;
+    border-radius: 2vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+#Invertido:hover{
+    background-color: #0681252a;
+}
+
+/* Barra */
+
+#oxford {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2926;
+    color: white;
+    height: 3.8vw;
+}
+
+/* Únete ahora */
+
+#letra{
+    width: 40vw;
+    margin: 0 auto; /* Centra p horizontalmente */
+    text-align: left;
+    padding: 0;
+}
+
+#chica-unete{
+    height: 14.2vw;
+    width: auto;
+}
+
+.Unete-ahora #dos{
+    display: grid;
+    grid-template-columns: repeat(2, 14vw);
+    gap: 1.47vw;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* Únete */
+
+#Unete{
+    margin-top: 7.4vw; /* Altura del menú */
+    margin-left: 41.16vw; /* Anchura de la barra lateral */
+    padding: 0;
+    background-color: #f1f0eb;
+}
+
+#Form-unete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 60vw;
+    margin-top: 8.5vw;
+}
+
+#info{
+    font-size: 1.2vw;
+    margin-top: 2.1vw;
+    height: 86vw;
+}
+
+#info p{
+    width: 30vw;
+    margin: 0 auto; /* Centra p horizontalmente */
+    text-align: left;
+    padding: 0;
+    color: #495057;
+}
+
+#inline{
+    width: 30vw;
+    margin: 0 auto; /* Centra p horizontalmente */
+    text-align: left;
+    padding: 0;
+    margin-bottom: 1vw;
+}
+
+#inline p{
+    display: inline; /* p en una línea */
+    margin: 0;
+}
+
+#bold, #bold-{
+    font-weight: bold;
+}
+
+#bold-, #extra{
+    color: #212529 !important;
+}
+
+#extra{
+    font-size: 0.9vw;
+}
+
+#cumpleaños{
+    font-size: 0.8vw;
+}
+
+select {
+    display: inline-block;
+    margin-top: 1vw;
+    margin-right: 10px; /* Espacio entre selectores */
+    padding: 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d1d6db;
+    width: 7.2vw;
+
+    background-color: #f1f0eb;
+    color: #495057;
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+}
+
+#form-rewards p{
+    width: 30vw;
+    margin: 0 auto; /* Centra p horizontalmente */
+    text-align: left;
+    padding: 0;
+    color: #495057;
+}
+
+#form-rewards h2{
+    width: 30vw;
+    margin: 0 auto; /* Centra p horizontalmente */
+    text-align: left;
+    margin-bottom: 1.4vw;
+}
+
+.option-label{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.option-label input[type="radio"] {
+    margin-right: 10px;  /* Espacio entre radio button y texto */
+    width: 20px;         /* Tamaño del círculo */
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #c8ccd4;
+    background-color: #f1f0eb;
+    appearance: none;   /* Elimina estilo predeterminado */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.option-label input[type="radio"]:checked { /* Seleccionado */
+    background-color: #008000;
+    border-color: #008000;
+}
+
+#Unete #oxford{
+    margin-bottom: 2vw;
+}

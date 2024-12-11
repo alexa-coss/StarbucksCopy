@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles forms.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header>
+        <navbar class="navbar" id="rewards">
+            <nav class="navbar-left">
+                    <a href="index.html" id="Logo-Starbucks"><img src="https://www.starbucks.com.mx/static/images/logo.svg" alt="Homepage" /></a>
+                    <a href="menu.html">Menú</a>
+                    <a href="rewards.html">Rewards</a>
+            </nav>
+
+            <nav class="navbar-right">
+                <a href="" id="ubi"><i class="fas fa-map-marker-alt"></i>Localiza tu tienda</a>
+                <a href=""><button type="submit" id="button-blanco--">Inicia sesión</button></a>
+                <a href=""><button type="submit" id="button-negro">Únete ahora</button></a>
+            </nav>
+        </navbar>
+    </header>
+
+    <!--Starbucks_Rewards-->
+    <section id="Gradiente">
+        <section class="Grad">
+            <section class="text">
+                <p>Registro</p>
+            </section>
+        </section>
+    </section>
+
+    <!--Content-->
+    <section class="Content" id="Unete">
+        <!--Iniciar sesión-->
+        <section id="info">
+            <section id="inline">
+                <p id="bold-">Información personal</p>
+                <p id="extra">(*) campos obligatorios</p>
+            </section>
+            
+            <p>¡Regístrate y comienza a vivir la experiencia Starbucks Rewards™!</p>
+
+            <form id="Form-unete" class="Gris">
+                <label for="email"><span class="required">*</span> Nombre(s)</label>
+                <input type="text" id="email" name="email" required placeholder="Nombre(s)*">
+    
+                <label for="password"><span class="required">*</span> Apellido paterno</label>
+                <input type="text" id="text" name="text" required placeholder="Apellido paterno*">
+    
+                <label for="email"><span class="required">*</span> Email</label>
+                <input type="text" id="email" name="email" required placeholder="Email*">
+    
+                <label for="email"><span class="required">*</span> Confirmar email</label>
+                <input type="text" id="email" name="email" required placeholder="Confirmar email*">
+    
+                <label for="password"><span class="required">*</span> Contraseña</label>
+                <input type="password" id="password" name="password" required placeholder="Contraseña*">
+    
+                <label for="password"><span class="required">*</span> Confirmar contraseña</label>
+                <input type="password" id="password" name="password" required placeholder="Confirmar contraseña*">
+
+                <section class="birthday">
+                    <section id="inline">
+                        <p>Fecha de Nacimiento</p>
+                        <p id="extra">(Opcional)</p>
+                    </section>
+        
+                    <p id="cumpleaños">Agrega tu fecha de cumpleaños para otorgarte una bebida gratis en el mes de tu cumpleaños</p>
+    
+                    <!-- Selector de mes -->
+                    <select id="mes" name="mes">
+                        <option value="">Mes</option>
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
+                    </select>
+    
+                    <!-- Selector de día -->
+                    <select id="dia" name="dia">
+                        <option value="">Día</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="13">13</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </section>
+
+                <section id="form-rewards">
+                    <h2>Ingresa a Starbucks Rewards</h2>
+                    <p>Únete a Starbucks Rewards™ y disfruta de beneficios especiales.</p>
+                
+                    <label class="option-label">
+                        <input type="radio" id="opcion1" name="opcion" value="digital" required>
+                        Quiero recibir una Starbucks Card digital instantánea
+                    </label>
+                
+                    <label class="option-label">
+                        <input type="radio" id="opcion2" name="opcion" value="card">
+                        Quiero unirme con una Starbucks Card que ya tengo
+                    </label>
+                </section>
+    
+                <button type="submit" id="Green">Registrame</button>
+            </form>
+        </section>
+
+        <!--Ser parte de rewards-->
+        <section class="Unete-ahora" id="oxford">
+            <h3>¡SER PARTE DE STARBUCKS REWARDS™ ES MUY FÁCIL!</h3>
+        </section>
+
+        <!--Nosotros | Cliente-->
+        <section class="Container-nosotros-cliente" id="nosotros-rewards">
+            <!--Nosotros-->
+            <section class="Container-Nosotros">
+                <h3>Sobre Nosotros</h3>
+                <ul class="Nosotros-lista">
+                    <li id="lista"><a href="">Historias Starbucks</a></li>
+                </ul>
+            </section>
+
+            <!--Cliente-->
+            <section class="Container-Nosotros">
+                <h3>Atención al cliente</h3>
+                <ul class="Nosotros-lista">
+                    <li id="lista"><a href="">Contáctanos</a></li>
+                    <li id="lista"><a href="">Facturas Electrónicas</a></li>
+                    <li id="lista"><a href="">Formas de comprar</a></li>
+                </ul>
+            </section>
+        </section>
+
+        <div class="linea-horizontal" id="line-rewards"><hr></div>
+
+        <!--Social networks-->
+        <nav class="redes" id="redes-rewards">
+            <!-- Íconos de redes sociales -->
+            <a href="https://www.facebook.com/StarbucksMexico" target="_blank" class="social-icon fab fa-facebook-f" title="Facebook "></a>
+            <a href="https://www.instagram.com/starbucksMex/" target="_blank" class="social-icon fab fa-instagram" title="Instagram"></a>
+            <a href="x.com/StarbucksMex" target="_blank" class="social-icon fab fa-x" title="X"></a>
+            <a href="https://www.youtube.com/user/StarbucksMexico?app=desktop" target="_blank" class="social-icon fab fa-youtube" title="YouTube"></a>
+        </nav>
+
+        <!--Avisos-->
+        <nav class="pages" id="avisos-rewards">
+            <ul class="avisos">
+                <li><a href="">Accesibilidad Web</a></li>
+                <li><a href="">Aviso de Privacidad</a></li>
+                <li><a href="">Boletines</a></li>
+                <li><a href="">Condiciones de uso</a></li>
+                <li><a href="">Mapa del sitio</a></li>
+                <li><a href="">Preferencias sobre cookies</a></li>
+            </ul>
+        </nav>
+      
+        <!--footer-->
+        <footer id="derechos-rewards">
+            <p id="derechos">Ⓒ 2022. Starbucks Cofee Company. Reservados todos los derechos</p>
+        </footer>
+    </section>
+</body>
+</html>
