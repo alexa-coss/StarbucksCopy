@@ -79,7 +79,7 @@ input:focus{
     color: #068125;
 }
 
-#Green{
+#Green, .Green-unete{
     background-color: #00a862;
     display: block;
     align-self: flex-end;
@@ -278,4 +278,248 @@ select {
 
 #Unete #oxford{
     margin-bottom: 2vw;
+}
+
+    /* Diseño responsivo*/
+
+@media (max-width: 600px) {
+        /* Sesión */
+
+    #Gradiente{
+        height: 28vw;
+    }
+
+    #Sesion{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8.78vw;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #Form-inicia{
+        height: 98vw;
+        padding: 3.4vw;
+    }
+
+    label{
+        display: block;
+        font-size: 2.75vw;
+        width: 87vw;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    input{
+        padding: 8px;
+        width: 87vw;
+
+        margin-bottom: 1.5vw;
+        font-size: 3vw;
+    }
+
+    /* Button */
+
+    #Greens{
+        background-color: transparent;
+        display: block;
+        align-self: flex-start;
+        margin-left: 4vw;
+        padding: 0;
+    
+        height: 2.4vw;
+        width: 28vw;
+        border-radius: 1.5vw;
+        font-size: 2.75vw;
+    }
+
+    #Green{
+        display: block;
+        align-self: flex-end;
+        margin-right: 16vw;
+        margin-top: 40vw;
+        padding: 0;
+    
+        height: 12vw;
+        width: 40vw;
+        border-radius: 6vw;
+        font-size: 3.7vw;
+    }
+
+    #Invertido{
+        display: block;
+    
+        height: 10vw;
+        width: 35vw;
+        border-radius: 6vw;
+        font-size: 3.8vw;
+    }
+
+    /* Barra */
+
+    #oxford {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14.5vw;
+    }
+
+    h3{
+        font-size: 4vw;
+    }
+
+    /* Únete ahora */
+
+    #letra{
+        width: 88vw;
+        margin: 0 auto; /* Centra p horizontalmente */
+        text-align: center;
+        padding: 0;
+        font-size: 3.7vw;
+        margin-bottom: 5.8vw;
+    }
+
+    #chica-unete{
+        height: 39vw;
+        width: auto;
+        margin-bottom: 3.8vw;
+    }
+
+    .Unete-ahora #dos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4vw;
+        justify-items: center;
+        align-items: center;
+    }
+
+        /* Únete */
+
+    #Unete{
+        display: flex;
+        flex-direction: column;
+        margin-top: -1vw;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #Form-unete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        height: 60vw;
+        margin-top: 47vw;
+        width: 90vw;
+        font-size: 4vw;
+    }
+
+    #info{
+        font-size: 1.8vw;
+        margin-top: 4.5vw;
+        height: 190vw;
+        width: 90vw;
+        padding: 4vw;
+    }
+
+    #info p{
+        width: 90vw;
+        text-align: left;
+        padding: 0;
+        font-size: 2.7vw;
+        margin-top: 4vw;
+    }
+
+    #inline{
+        width: 90vw;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 1vw;
+    }
+
+    #bold-{
+        font-size: 3.6vw !important;
+    }
+
+    #extra{
+        font-size: 1.5vw;
+    }
+
+    #cumpleaños{
+        font-size: 0.8vw;
+    }
+
+    select{
+        display: inline-block;
+        margin-top: 1vw;
+        margin-left: 0;
+        padding: 1vw;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 20vw;
+
+        margin-bottom: 1.5vw;
+        font-size: 4vw;
+    }
+
+    #form-rewards p{
+        width: 90vw;
+        margin: 0 auto; /* Centra p horizontalmente */
+        text-align: left;
+        padding: 0;
+        font-size: 3vw;
+    }
+
+    #form-rewards h2{
+        width: 90vw;
+        text-align: left;
+        margin-top: 1.6vw;
+        margin-bottom: 1.4vw;
+        font-size: 4vw;
+    }
+
+    /* Button */
+    .Green-unete{
+        position: absolute;
+        display: block;
+        align-self: flex-end;
+        margin-right: 16vw;
+        margin-top: 180vw;
+        padding: 0;
+
+        min-height: 11.7vw;
+        max-height: 11.7vw;
+        min-width: 35vw;
+        max-width: 35vw;
+
+        border-radius: 6vw;
+        font-size: 3.7vw;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* max-width de 1400px, sin importar el tamaño de pantalla */
+    body{
+        width: 100%;
+        width: 1400px;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .Content {
+        margin-top: 8.78vw; /* Centra el contenedor con margen superior */
+        margin-left: 41.16vw; /* Anchura de la barra lateral */
+        width: calc(100vw - 41.16vw);
+        padding: 0;
+        background-color: white;
+        font-size: 1.17vw;
+        text-align: center;
+        overflow-y: auto; /* Habilita el scroll vertical */
+        overflow-x: hidden; /* Desactiva el scroll horizontal */
+    }
 }
