@@ -78,6 +78,20 @@
     margin: 0;
 }
 
+.producto::before{ /* Círculo hueco */
+    content: '';  /* Necesario para crear un elemento visual */
+    position: absolute;
+    width: 10.9vw;
+    height: 10.9vw;
+    border-radius: 50%;
+    border: 0.9vw solid #1e3932;  /* Borde del círculo hueco */
+    transition: all 0.3s ease;  /* Transición suave para efecto hover */
+}
+
+.producto:hover::before{
+    border-color: #d7e6e1;
+}
+
 /* Img */
 .Menu img {
     height: 100%; /* Todo el círculo */
@@ -170,3 +184,4 @@
         margin: 0 auto;
     }
 }
+
