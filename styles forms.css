@@ -55,7 +55,7 @@ input:focus{
     outline: none; /* Eliminar borde de enfoque predeterminado */
 }
 
-/* Button */
+/* Buttons */
 
 #Greens{
     background-color: transparent;
@@ -96,6 +96,7 @@ input:focus{
     font-weight: bold;
     font-size: 1.2vw;
     line-height: 4.1vw;
+    text-transform: capitalize;
 }
 
 #Green:hover{
@@ -116,6 +117,10 @@ input:focus{
     cursor: pointer;
     font-weight: bold;
     font-size: 1.2vw;
+}
+
+.sub{
+    text-decoration: none;
 }
 
 #Invertido:hover{
