@@ -176,7 +176,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     /* max-width de 1200px, sin importar el tamaño de pantalla */
     body{
         width: 100%;
@@ -184,4 +184,3 @@
         margin: 0 auto;
     }
 }
-

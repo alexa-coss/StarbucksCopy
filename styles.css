@@ -1241,7 +1241,7 @@ strong{
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     /* max-width de 1400px, sin importar el tamaño de pantalla */
     body{
         width: 100%;
